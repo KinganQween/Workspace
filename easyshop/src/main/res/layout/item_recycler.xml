@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_recycler_bg"
+    android:padding="@dimen/dp_6">
+    <ImageView
+        android:id="@+id/iv_item_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_120"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_31"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="航母"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/text_goods_name"
+            android:gravity="center_vertical|left"
+            android:layout_marginLeft="@dimen/dp_3"/>
+        <TextView
+            android:id="@+id/tv_item_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="23434￥"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/text_goods_name"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/dp_3"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

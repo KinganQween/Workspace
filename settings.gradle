@@ -1,0 +1,1 @@
+include ':app', ':eshop', ':demo', ':myhttpactivity', ':myjson', ':myjson2', ':easyshop', ':apphx1', ':easeui1', ':newsprojectdemo'

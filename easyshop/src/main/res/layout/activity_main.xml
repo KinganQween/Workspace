@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhuoxin.easyshop.main.MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/Base.ThemeOverlay.AppCompat.ActionBar">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="市场"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+    </android.support.v7.widget.Toolbar>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_toolbar"
+        android:layout_above="@+id/linearlayout"
+        android:background="#fcfcfc"/>
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#fcfcfc"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/tv_shop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="市场"
+            android:gravity="center"
+            android:drawableTop="@drawable/selector_ic_shopping"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="消息"
+            android:gravity="center"
+            android:drawableTop="@drawable/selector_ic_chat"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tv_contact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="通讯录"
+            android:gravity="center"
+            android:drawableTop="@drawable/selector_ic_people"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tv_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="我的"
+            android:gravity="center"
+            android:drawableTop="@drawable/selector_ic_identity"
+            android:textSize="15sp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

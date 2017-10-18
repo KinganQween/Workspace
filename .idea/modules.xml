@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Workspace.iml" filepath="$PROJECT_DIR$/Workspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apphx1/apphx1.iml" filepath="$PROJECT_DIR$/apphx1/apphx1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easeui1/easeui1.iml" filepath="$PROJECT_DIR$/easeui1/easeui1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyshop/easyshop.iml" filepath="$PROJECT_DIR$/easyshop/easyshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop/eshop.iml" filepath="$PROJECT_DIR$/eshop/eshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myhttpactivity/myhttpactivity.iml" filepath="$PROJECT_DIR$/myhttpactivity/myhttpactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myjson/myjson.iml" filepath="$PROJECT_DIR$/myjson/myjson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myjson2/myjson2.iml" filepath="$PROJECT_DIR$/myjson2/myjson2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newsprojectdemo/newsprojectdemo.iml" filepath="$PROJECT_DIR$/newsprojectdemo/newsprojectdemo.iml" />
+    </modules>
+  </component>
+</project>

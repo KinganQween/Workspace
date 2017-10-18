@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/apphx1" />
+            <option value="$PROJECT_DIR$/demo" />
+            <option value="$PROJECT_DIR$/easeui1" />
+            <option value="$PROJECT_DIR$/easyshop" />
+            <option value="$PROJECT_DIR$/eshop" />
+            <option value="$PROJECT_DIR$/myhttpactivity" />
+            <option value="$PROJECT_DIR$/myjson" />
+            <option value="$PROJECT_DIR$/myjson2" />
+            <option value="$PROJECT_DIR$/newsprojectdemo" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
